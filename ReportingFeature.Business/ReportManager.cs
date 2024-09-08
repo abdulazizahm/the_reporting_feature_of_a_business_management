@@ -114,6 +114,7 @@ namespace ReportingFeature.Business
             var clientQuery = _unitOfWork.Client.GetAll()
                 .Include(c => c.Bookings).ThenInclude(b => b.BookingServices).ThenInclude(bs => bs.Service)
                 .Include(c => c.Bookings).ThenInclude(b => b.Transactions)
+                .Include(c => c.Bookings).ThenInclude(b => b.Branch)
                 .Where(c => c.Bookings.Any(b => b.BookingDate >= startDate && b.BookingDate <= endDate));
 
             // Apply additional filtering conditions
