@@ -1,0 +1,35 @@
+{
+  "Common": {
+    "1": "Token is require",
+    "2": "API-Key is required",
+    "3": "Token not valid",
+    "4": "API-Key not valid",
+    "ValidationStrings": "Enter Valid Data",
+    "success": "Success",
+    "successAr": "تم",
+    "Erorr": "Error occurred",
+    "ErrorAr": "خطا فالبيانات",
+    "ErrorOTP": "Invalid Email",
+    "ErrorOTPAr": " بريد الكتروني غير صالح",
+    "ErrorInSendMail": "Error occurred In send email",
+    "ErrorInSendMailAr": "حدث خطا في ارسال الايميل",
+    "SuccesSave": "Success save data",
+    "SuccesSaveAr": "تم الحفظ بنجاح",
+    "ErorrDeletingData": "Error in Deleting Data",
+    "ErorrDeletingDataAr": "خطا في حذف البيانات",
+    "Failed": "This Name Is Already Exists",
+    "FailedAr": "هذا الاسم موجود من قبل",
+    "FailedEmailOrMobile": "This Email Or Phone Is Already Exists",
+    "FailedEmailOrMobileAr": "هذا البريد او التليفون موجود من قبل",
+    "FailedEmailOnly": "This Email Is Already Exists"
+
+  },
+  "User": {
+    "Expireotp": "This otp expire",
+    "ExpireotpAr": "انتهت صلاحيه ال otp"
+
+  }
+
+ 
+
+}

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AppDesignerFolder>Property</AppDesignerFolder>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ContactCategories\**" />
+    <EmbeddedResource Remove="ContactCategories\**" />
+    <None Remove="ContactCategories\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReportingFeature.Enum\ReportingFeature.Enum.csproj" />
+  </ItemGroup>
+
+</Project>
